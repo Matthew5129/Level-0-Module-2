@@ -47,7 +47,7 @@ if __name__ == '__main__':
     window.geometry("1075x250")
     window.configure(background="grey")
 
-    Label(window, text="Choose Your Weapon!", bg="grey").pack(side="left")
+    Label(window, text="Choose Your Weapon!", bg="grey").pack(side="right")
 
     img_rock = ImageTk.PhotoImage(file="rock.png")
     img_paper = ImageTk.PhotoImage(file="paper.jpeg")

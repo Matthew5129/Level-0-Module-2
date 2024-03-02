@@ -16,7 +16,6 @@ def get_random_dice_image():
     # TODO Change the line of code below to a random number from 1 to 6
     #  (1 and 6 included) so all 6 sides of the die are randomly shown.
     rand_num = 1
-
     if rand_num == 1:
         random_image = create_image('dice 1.png', 400, 400)
     elif rand_num == 2:
