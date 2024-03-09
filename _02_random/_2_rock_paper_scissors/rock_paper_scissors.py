@@ -27,7 +27,7 @@ def onclick(args):
         messagebox.showinfo(None, "No Winner. Play Again.")
     elif (selection == 1 and opponent_selection == 3) or (selection == 2 and opponent_selection == 1) or (
             selection == 3 and opponent_selection == 2):
-        messagebox.showinfo(None, "You Win!")
+       messagebox.showinfo(None, "You Win!")
     else:
         messagebox.showinfo(None, "You Lose!")
 
@@ -47,7 +47,7 @@ if __name__ == '__main__':
     window.geometry("1075x250")
     window.configure(background="grey")
 
-    Label(window, text="Choose Your Weapon!", bg="grey").pack(side="right")
+    Label(window, text="Choose Your Weapon!", bg="gray").pack(side="left")
 
     img_rock = ImageTk.PhotoImage(file="rock.png")
     img_paper = ImageTk.PhotoImage(file="paper.jpeg")

@@ -1,7 +1,7 @@
-"""
-Use a Random object to generate random integers so your code can roll different
-numbers on a dice.
-"""
+
+# Use a Random object to generate random integers so your code can roll different
+# numbers on a dice.
+
 import tkinter as tk
 from PIL import Image, ImageTk
 import random
